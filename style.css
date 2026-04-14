@@ -1,23 +1,25 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background: #0f0f0f;
+    background: rgb(96, 226, 226);
     color: white;
 }
 
+/* TOPO CORRIGIDO */
 .topo {
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
     background: #000;
-    font-weight: 800;
 }
 
-/* LOGO */
+/* LOGO GRANDE DE VERDADE */
 .logo {
-    width: 500px; /* maior */
+    width: 500px !important;
+    max-width: none !important;
     height: auto;
     display: block;
-    margin: 0 auto;
 }
 
 /* HERO */
